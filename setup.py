@@ -21,7 +21,8 @@ setup(
     options={
         'build_exe': {
             'include_files': include_files,
-            'packages': ['requests', 'pyttsx3', 'speech_recognition', 'PIL', 'datetime', 'webbrowser'],  # Add your dependencies here
+            'packages': ['requests', 'pyttsx3', 'speech_recognition', 'PIL', 'datetime', 'webbrowser'],
+            'includes': ['tkinter'],
         }
     },
     executables=executables
